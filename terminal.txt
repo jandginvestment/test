@@ -1,0 +1,134 @@
+    1  cd /media/$user/
+    2  ls
+    3  /lib/jvm/java-11-openjdk-amd64/
+    4  /VAR
+    5  cd var
+    6  sudo nano /var/snap/jenkins/1316/secrets/initialAdminPassword
+    7  wget https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb
+    8  sudo apt install ./teams_1.3.00.5153_amd64.deb
+    9  javac --version
+   10  java -version
+   11  sudo apt-get update
+   12  sudo apt install default-jre
+   13  java -version
+   14  javac --version
+   15  sudo apt install default-jdk
+   16  sudo update-alternatives --config java
+   17  sudo apt update
+   18  sudo update-alternatives --config java
+   19  wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add
+   20  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   21  sudo apt update
+   22  sudo apt install jenkins
+   23  javac --version
+   24  echo $JAVA_HOME
+   25  java -version
+   26  sudo apt-get update
+   27  sudo apt-get remove default-jre default-jdk
+   28  sudo apt-get update
+   29  sudo apt-get install default-jre default-jdk
+   30  java -version
+   31  sudo apt-get install jenkins
+   32  sudo update-alternatives --config java
+   33  sudo nano /etc/environment
+   34  sudo apt install jenkins
+   35  sudo apt-get remove jenkins jenkins-common
+   36  wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+   37  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+   38  sudo apt-get update
+   39  sudo apt install openjdk-11-jdk-headless
+   40  sudo apt install jenkins
+   41  sudo systemctl status jenkins
+   42  sudo apt install openjdk-7-jdk-headless
+   43  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+   44  sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
+   45      /etc/apt/sources.list.d/jenkins.list'
+   46  sudo apt-get update
+   47  sudo apt-get install jenkins
+   48  sudo systemctl status jenkins
+   49  sudo nano /etc/environment
+   50  sudo nano /var/lib/Jenkins/config.xml 
+   51  dpkg -L jenkins
+   52  cd /var
+   53  cd /lib
+   54  cd /jenkins
+   55  ls
+   56  cd..
+   57  cd
+   58  cd /var/lib
+   59  cd /var/lib/jenkins
+   60  ls
+   61  sudo vi /var/lib/Jenkins/config.xml file. 
+   62  vi /var/lib/jenkins/config.xml file.
+   63  dpkg -L jenkins
+   64  sudo vi /var/snap/Jenkins/1316/config.xml file. 
+   65  cd  /var/snap/Jenkins/1316/
+   66  cd  /var/snap/Jenkins/
+   67  cd  /var/snap/
+   68  ls
+   69  cd  /var/snap/jenkins
+   70  ls
+   71  cd  /var/snap/jenkins/current
+   72  ls
+   73  sudo nano config.xml
+   74  sudo systemctl status jenkins
+   75  sudo systemctl restart Jenkins 
+   76  sudo systemctl stop jenkins
+   77  sudo systemctl restart Jenkins 
+   78  sudo systemctl start Jenkins 
+   79* sudo systemctl status jenkin
+   80  sudo apt-get update
+   81  apt-get install git
+   82  sudo apt-get install git
+   83  git --version
+   84  git status
+   85  md projects
+   86  mkdir projects
+   87  cd projects
+   88  mkdir test
+   89  cd test
+   90  git init
+   91  ls
+   92  git push
+   93  git status
+   94  git add
+   95  git add .
+   96  ls
+   97  git ls
+   98  git --help
+   99  git log
+  100  sudo adduser git
+  101  ls -al ~/.ssh
+  102  ssh-keygen -t rsa -b 4096 -C "jandginvestment@gmail.com"
+  103  eval "$(ssh-agent -s)"
+  104  ssh-add ~/.ssh/id_rsa
+  105  sudo apt-get install xclip
+  106  xclip -sel clip < ~/.ssh/id_rsa.pub
+  107  git status
+  108  sudo nano test.txt
+  109  git status
+  110  git add .gitignore
+  111  git add .
+  112  git commit
+  113  git remote add origin git@github.com:jandginvestment/test
+  114  git commit
+  115  git config --global user.email "jandginvestment@gmail.com"
+  116  git commit
+  117  git push -u origin master
+  118  git remote add origin git@github.com:jandginvestment/test
+  119  git push -u origin master
+  120  git status
+  121  git push 
+  122  git push --set-upstream origin master
+  123  git status
+  124  git push -u origin master
+  125  git remote new origin test2
+  126  sudo apt-get install visualstudiocode
+  127  sudo apt-get install code
+  128  sudo apt update
+  129  sudo apt install software-properties-common apt-transport-https wget
+  130  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+  131  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+  132  sudo apt update
+  133  sudo apt install code
+  134  history > terminal.txt
