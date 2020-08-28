@@ -1,0 +1,375 @@
+    1  cd /media/$user/
+    2  ls
+    3  /lib/jvm/java-11-openjdk-amd64/
+    4  /VAR
+    5  cd var
+    6  sudo nano /var/snap/jenkins/1316/secrets/initialAdminPassword
+    7  wget https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb
+    8  sudo apt install ./teams_1.3.00.5153_amd64.deb
+    9  javac --version
+   10  java -version
+   11  sudo apt-get update
+   12  sudo apt install default-jre
+   13  java -version
+   14  javac --version
+   15  sudo apt install default-jdk
+   16  sudo update-alternatives --config java
+   17  sudo apt update
+   18  sudo update-alternatives --config java
+   19  wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add
+   20  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   21  sudo apt update
+   22  sudo apt install jenkins
+   23  javac --version
+   24  echo $JAVA_HOME
+   25  java -version
+   26  sudo apt-get update
+   27  sudo apt-get remove default-jre default-jdk
+   28  sudo apt-get update
+   29  sudo apt-get install default-jre default-jdk
+   30  java -version
+   31  sudo apt-get install jenkins
+   32  sudo update-alternatives --config java
+   33  sudo nano /etc/environment
+   34  sudo apt install jenkins
+   35  sudo apt-get remove jenkins jenkins-common
+   36  wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+   37  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+   38  sudo apt-get update
+   39  sudo apt install openjdk-11-jdk-headless
+   40  sudo apt install jenkins
+   41  sudo systemctl status jenkins
+   42  sudo apt install openjdk-7-jdk-headless
+   43  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+   44  sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
+   45      /etc/apt/sources.list.d/jenkins.list'
+   46  sudo apt-get update
+   47  sudo apt-get install jenkins
+   48  sudo systemctl status jenkins
+   49  sudo nano /etc/environment
+   50  sudo nano /var/lib/Jenkins/config.xml 
+   51  dpkg -L jenkins
+   52  cd /var
+   53  cd /lib
+   54  cd /jenkins
+   55  ls
+   56  cd..
+   57  cd
+   58  cd /var/lib
+   59  cd /var/lib/jenkins
+   60  ls
+   61  sudo vi /var/lib/Jenkins/config.xml file. 
+   62  vi /var/lib/jenkins/config.xml file.
+   63  dpkg -L jenkins
+   64  sudo vi /var/snap/Jenkins/1316/config.xml file. 
+   65  cd  /var/snap/Jenkins/1316/
+   66  cd  /var/snap/Jenkins/
+   67  cd  /var/snap/
+   68  ls
+   69  cd  /var/snap/jenkins
+   70  ls
+   71  cd  /var/snap/jenkins/current
+   72  ls
+   73  sudo nano config.xml
+   74  sudo systemctl status jenkins
+   75  sudo systemctl restart Jenkins 
+   76  sudo systemctl stop jenkins
+   77  sudo systemctl restart Jenkins 
+   78  sudo systemctl start Jenkins 
+   79  sudo systemctl status jenkins
+   80  sudo apt-get update
+   81  apt-get install git
+   82  sudo apt-get install git
+   83  git --version
+   84  git status
+   85  md projects
+   86  mkdir projects
+   87  cd projects
+   88  mkdir test
+   89  cd test
+   90  git init
+   91  ls
+   92  git push
+   93  git status
+   94  git add
+   95  git add .
+   96  ls
+   97  git ls
+   98  git --help
+   99  git log
+  100  sudo adduser git
+  101  ls -al ~/.ssh
+  102  ssh-keygen -t rsa -b 4096 -C "jandginvestment@gmail.com"
+  103  eval "$(ssh-agent -s)"
+  104  ssh-add ~/.ssh/id_rsa
+  105  sudo apt-get install xclip
+  106  xclip -sel clip < ~/.ssh/id_rsa.pub
+  107  git status
+  108  sudo nano test.txt
+  109  git status
+  110  git add .gitignore
+  111  git add .
+  112  git commit
+  113  git remote add origin git@github.com:jandginvestment/test
+  114  git commit
+  115  git config --global user.email "jandginvestment@gmail.com"
+  116  git commit
+  117  git push -u origin master
+  118  git remote add origin git@github.com:jandginvestment/test
+  119  git push -u origin master
+  120  git status
+  121  git push 
+  122  git push --set-upstream origin master
+  123  git status
+  124  git push -u origin master
+  125  git remote new origin test2
+  126  sudo apt-get install visualstudiocode
+  127  sudo apt-get install code
+  128  sudo apt update
+  129  sudo apt install software-properties-common apt-transport-https wget
+  130  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+  131  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+  132  sudo apt update
+  133  sudo apt install code
+  134  history > terminal.txt
+  135  sudo nano terminal.txt
+  136  sudo apt update
+  137  sudo git stage
+  138  git add .
+  139  git commit
+  140  git push
+  141  lspci | grep VGA
+  142  ./amdgpu-pro-install -y --opencl=legacy,pal
+  143  cd\
+  144  ./amdgpu-pro-install -y --opencl=legacy,pal
+  145  echo ${dir}${etc}${dir}${sourceparts}/amdgpu-pro.list
+  146  sudo apt-get update
+  147  clear
+  148  lspci | grep VGA
+  149  cd download
+  150  cd downloads
+  151  cd Downloads
+  152  ls
+  153  tar -C /video -xvf amdgpu-pro-20.30-1109583-ubuntu-20.04.tar.xz
+  154  ls
+  155  tar -C /video -xvf video.tar.xz
+  156  mkdir video
+  157  tar -C /video -xvf video.tar.xz
+  158  sudo tar -C /video -xvf video.tar.xz
+  159  sudo apt install xz-utils 
+  160  sudo tar -C /video -xvf video.tar.xz
+  161  sudo tar  -xvf video.tar.xz
+  162  cd vid
+  163  ls
+  164  ./amdgpu-pro-install -y --opencl=legacy,pal
+  165  https://www.nielsvandermolen.com/davinci-resolve-linux-ubuntu/
+  166  sudo reboot
+  167  amdgpu-pro-uninstall
+  168  exit
+  169  sudo apt-get update
+  170  sudo apt-get install libssl1.0.0 ocl-icd-opencl-dev fakeroot xorriso
+  171  sudo apt-get install libssl1.1 ocl-icd-opencl-dev fakeroot xorriso
+  172  su
+  173  sudo -i
+  174  exit
+  175  sudo hwinfo  --gfxcard --short
+  176  sudo apt-get install hwinfo
+  177  sudo hwinfo  --gfxcard --short
+  178  sudo lshw -c display | grep NVIDIA
+  179  sudo hwinfo  --gfxcard --short
+  180  sudo lspci -v | less
+  181  sudo lshw -c video
+  182  sudo lshw -numeric -C display | grep -E "(product|vendor)"
+  183  sudo dpkg-reconfigure davinci-resolve-studio
+  184  sudo dpkg-reconfigure davinci-resolve
+  185  cd downloads
+  186  ls
+  187  cd Downloads
+  188  cd video
+  189  ./makeresolvedeb_16.0-1.sh studio
+  190  ls11
+  191  ./makeresolvedeb_16.2.5-1.sh studio
+  192  ./makeresolvedeb_16.2.5-1.sh lite
+  193  sudo apt install build-essential dkms
+  194  sudo apt autoremove
+  195  sudo apt install build-essential dkms
+  196  tar -xJpf amdgpu-pro-*.tar.xz
+  197  ls
+  198  cd amdgpu-pro-16.40-348864
+  199  ls
+  200  ./amdgpu-pro-install –y
+  201  dpkg -l amdgpu-pro
+  202  sudo lshw -numeric -C display | grep -E "(product|vendor)"
+  203  ls
+  204  ./amdgpu-pro-install
+  205  ./amdgpu-pro-install -y
+  206  /amdgpu-pro-install -y
+  207  amdgpu-pro-install -y
+  208  ./amdgpu-pro-install -y
+  209  ln
+  210  ./amdgpu-pro-install -y
+  211  sudo ./amdgpu-pro-install -y
+  212  sudo ./amdgpu-pro-install -f
+  213  ln -s /usr/bin/amdgpu-pro-uninstall /usr/bin/amdgpu-pro-uninstall-new
+  214  sudo ln -s /usr/bin/amdgpu-pro-uninstall /usr/bin/amdgpu-pro-uninstall-new
+  215  sudo ./amdgpu-pro-install -y
+  216  sudo ln -s /usr/bin/amdgpu-pro-uninstall /usr/bin/amdgpu-pro-uninstall-new
+  217  sudo ln -s /usr/bin/amdgpu-pro-uninstall /usr/bin/amdgpu-pro-uninstall-new2
+  218  sudo rm -rf /usr/bin/amdgpu-pro-uninstall 
+  219  sudo ./amdgpu-pro-install -y
+  220  sudo rm -rf /usr/bin/amdgpu-pro-uninstall 
+  221  sudo ./amdgpu-pro-install -y
+  222  ./makeresolvedeb_16.2.5-1.sh lite
+  223  sudo dpkg -i
+  224  sudo dpkg -i ...
+  225  dpkg -l amdgpu-pro
+  226  sudo dpkg -i amdgpu-pro-core
+  227  ls
+  228  sudo dpkg -i amdgpu-pro-dkms_16.40-348864_all.deb
+  229  sudo rm -rf /usr/bin/amdgpu-pro-uninstall 
+  230  sudo dpkg -i amdgpu-pro-dkms_16.40-348864_all.deb
+  231  sudo dpkg -i amdgpu-pro
+  232  dpkg -l amdgpu-pro
+  233  sudo ./amdgpu-pro-install -y
+  234  ls
+  235  sudo ./amdgpu-pro-install
+  236  sudo rm -rf /usr/bin/amdgpu-pro-uninstall 
+  237  sudo ./amdgpu-pro-install -y
+  238  sudo ./amdgpu-pro-install
+  239  sudo rm -rf /usr/bin/amdgpu-pro-uninstall 
+  240  sudo ./amdgpu-pro-install
+  241  sudo reboot
+  242  dpkg -l amdgpu-pro
+  243  sudo lshw -numeric -C display | grep -E "(product|vendor)"
+  244  dpkg -l xserver-xorg-video-amdgpu
+  245  clocl --version
+  246  sudo apt-get clocl -i
+  247  sudo apt-get clocl 
+  248  sudo apt autoremove
+  249  sudo install clocl 
+  250  pip --version
+  251  sudo apt install python-pip
+  252  sudo apt install clocl 
+  253  clocl --version
+  254  ls -l /usr/lib/libOpenCL*
+  255  dpkg -s ti-opencl
+  256  sudo apt update
+  257  sudo apt install ocl-icd-opencl-dev
+  258  dpkg -s ti-opencl
+  259  dpkg --info (= dpkg-deb --info)
+  260  dpkg -info ti-opencl
+  261  dpkg -s ti-opencl
+  262  cd dowloads
+  263  cd Dowloads
+  264  cd Downloads
+  265  cd video
+  266  cd l_opencl_p_18.1.015
+  267  cd l_opencl_p_18.1.0.015
+  268  ls
+  269  sudo ./install.sh
+  270  dpkg -s ti-opencl
+  271  sudo apt install libssl1.0.0 ocl-icd-opencl-dev fakeroot xorriso
+  272  sudo apt install libssl1.1 ocl-icd-opencl-dev fakeroot xorriso
+  273  sudo apt install libssl1.1.1 ocl-icd-opencl-dev fakeroot xorriso
+  274  sudo apt install libssl1.1 ocl-icd-opencl-dev fakeroot xorriso
+  275  cd Downloads
+  276  ls
+  277  cd video
+  278  ls
+  279  sudo apt install bash-completion
+  280  rm var/crash/amdgpu-pro-dkms
+  281  .0.crash
+  282  rm var/crash/amdgpu-pro-dkms.0.crash
+  283  sudo rm var/crash/amdgpu-pro-dkms.0.crash
+  284  su
+  285  sudo -i
+  286  sudo rm var/crash/amdgpu-pro-dkms.0.crash
+  287  sudo -i
+  288  ls
+  289  sudo apt install libssl1.1 ocl-icd-opencl-dev fakeroot xorriso
+  290  ls
+  291  cd Videos
+  292  ls
+  293  cd\
+  294  cd Downloads
+  295  ls
+  296  cd video
+  297  ls
+  298  sudo ./makeresolvedeb_16.2.5-1.sh lite
+  299  cd Downloads
+  300  cd video
+  301  sudo ./makeresolvedeb_16.2.5-1.sh lite
+  302  sudo -i
+  303  cd Downloads
+  304  cd video
+  305  sudo -i
+  306  sudo ./makeresolvedeb_16.2.5-1.sh lite
+  307  cd Downloads
+  308  cd video
+  309  sudo ./makeresolvedeb_16.2.5-1.sh lite
+  310  cls477
+  311  cls
+  312  clear
+  313  cd\
+  314  cd Downloads
+  315  sudo ./makeresolvedeb_16.2.5-1.sh lite
+  316  ls
+  317  sudo dpkg -i 
+  318  sudo dpkg -i Davinci-resolve_16.2.5-1_amd64.deb
+  319  ls
+  320  sudo dpkg -i davinci-resolve_16.2.5-1_amd64.deb
+  321  rm /usr/lib64/libDaVinciPanelAPI.so
+  322  sudo rem /usr/lib64/libDaVinciPanelAPI.so
+  323  sudo rm /usr/lib64/libDaVinciPanelAPI.so
+  324  sudo dpkg -i davinci-resolve_16.2.5-1_amd64.deb
+  325  sudo reboot
+  326  sudo apt-get install libssl-dev
+  327  sudo ln -s /usr/lib /usr/lib64
+  328  sudo ln -s /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0 /usr/lib/libgstreamer-0.10.so.0
+  329  sudo ln -s /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0 /usr/lib/libgstbase-0.10.so.0
+  330  sudo ln -s /lib/x86_64-linux-gnu/libssl.so.1.0.0 /usr/lib/libssl.so.10
+  331  sudo ln -s /lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /usr/lib/libcrypto.so.10
+  332  sudo apt-get install build-essential && sudo apt-get install linux-source && sudo apt-get install linux-headers-generic
+  333  sudo dpkg -i davinci-resolve_16.2.5-1_amd64.deb
+  334  cd Downloads
+  335  sudo dpkg -i davinci-resolve_16.2.5-1_amd64.deb
+  336  ffmpeg -i input.mov -vf yadif -codec:v libx264 -crf 1 -bf 2 -flags +cgop -pix_fmt yuv420p -codec:a aac -strict -2 -b:a 384k -r:a 48000 -movflags faststart output.mp4
+  337  sudo reboot
+  338  sudo fdisk -l /dev/sda
+  339  sudo update-grub
+  340  sudo reboot
+  341  umount /dev/sda1
+  342  umount /dev/sdb1
+  343  sudo umount /dev/sdb1
+  344  sudo apt-get install gnome-disk-utility
+  345  su
+  346  su -s
+  347  ffmpeg -i input.mov -vf yadif -codec:v libx264 -crf 1 -bf 2 -flags +cgop -pix_fmt yuv420p -codec:a aac -strict -2 -b:a 384k -r:a 48000 -movflags faststart output.mp4
+  348  sudo -i
+  349  cd /mnt/c
+  350  ls
+  351  sudo kafka
+  352  su -l kafka
+  353  sudo apt-get install ntfs-3g 
+  354  blkid
+  355  lsblk
+  356  uname
+  357  uname -n
+  358  uname -v
+  359  lshw
+  360  sudo lshw
+  361  sudo lshw -short
+  362  cd /dev/sda1
+  363  mount /dev/sda1
+  364  su -i
+  365  sudo -i
+  366  su -l kafka
+  367  docker run --name some-nginx -d -p 8080:80 some-content-nginx
+  368  sudo docker run --name some-nginx -d -p 8080:80 some-content-nginx
+  369  sudo docker run --name nginx -d -p 8080:80 nginx
+  370  sudo docker run --name nginx -d -p 8880:80 nginx
+  371  sudo docker run --name nginx2 -d -p 8880:80 nginx
+  372  cd projects
+  373  ls
+  374  cd test
+  375  history > terminal_2.txt
