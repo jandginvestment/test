@@ -14,3 +14,10 @@ $ sudo apt-key fingerprint 0EBFCD88
 Use the following command to set up the stable repository. 
 ---
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+###  INSTALL DOCKER ENGINE ###
+
+```
+$ sudo apt-get update
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
