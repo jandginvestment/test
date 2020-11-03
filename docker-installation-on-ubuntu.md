@@ -21,3 +21,15 @@ $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ub
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
+
+### Test with docker version ###
+```
+$ docker --version
+
+```
+### Test with Hello World ###
+
+```
+$ docker run busybox echo "hellow world"
+
+```
