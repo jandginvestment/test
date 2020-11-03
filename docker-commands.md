@@ -35,3 +35,6 @@ $ sudo docker rm $(docker ps -a -f status=exited -q)
 $ sudo docker stop $(docker ps -a -q)
 $ sudo docker rm $(docker ps -a -q)
 ```
+
+### start and attach the container
+$ sudo docker start main-container --attach
