@@ -37,4 +37,11 @@ $ sudo docker rm $(docker ps -a -q)
 ```
 
 ### start and attach the container
+```
 $ sudo docker start main-container --attach
+```
+### inspecting a container
+```
+docker inspect main-container
+```
+
